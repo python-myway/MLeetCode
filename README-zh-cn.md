@@ -179,7 +179,7 @@ gem install jekyll
 # Site settings
 title: HyG
 brief-intro: Front-end Dev Engineer
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
 ```
 
