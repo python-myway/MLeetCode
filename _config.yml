@@ -9,7 +9,7 @@
 title: Misaki
 brief-intro: Python Programmer
 baseurl: "" # the subpath of your site, e.g. /blog
-url:  "http://python-myway.github.io" # the base hostname & protocol for your site
+url:  "http://python-myway.github.io/MLeetCode" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
