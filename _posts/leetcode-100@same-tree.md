@@ -1,0 +1,115 @@
+
+---
+layout: post
+title:  leetcode-100 same-tree
+date:   2018-03-14 00:00:00
+
+categories: LeetCode
+tags: LeetCode-Easy
+---
+
+* content
+{:toc}
+
+正经的分界线
+
+
+
+
+
+## Difficulty:
+
+**Easy**
+
+## Description：
+
+Given two binary trees, write a function to check if they are the same or not.
+
+Two binary trees are considered the same if they are structurally identical 
+and the nodes have the same value. 
+
+## Example1：
+
+```
+Input:     1         1
+          / \       / \
+         2   3     2   3
+
+        [1,2,3],   [1,2,3]
+
+Output: true
+```
+
+## Example2：
+
+```
+Input:     1         1
+          /           \
+         2             2
+
+        [1,2],     [1,null,2]
+
+Output: false
+```
+
+## Example3：
+
+```
+Input:     1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+
+Output: false
+```
+
+## Solution：
+
+```
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isSameTree(self, p, q):
+        """
+        :type p: TreeNode
+        :type q: TreeNode
+        :rtype: bool
+        """
+        list_p = [p]
+        list_q = [q]
+        while list_p:
+            p_node = list_p.pop(0)
+            q_node = list_q.pop(0)
+            if not p_node and not q_node:
+                continue
+            elif not p_node or not q_node:
+                return False
+            if p_node.val != q_node.val:
+                return False
+            list_p.extend([p_node.left or None, p_node.right or None])
+            list_q.extend([q_node.left or None, q_node.right or None])
+        else:
+            return True
+            
+# 这个是最快的答案，用的是递归            
+class Solution:
+    def isSameTree(self, p, q):
+        """
+        :type p: TreeNode
+        :type q: TreeNode
+        :rtype: bool
+        """
+        if p is None and q is None:
+            return True
+        elif p is None or q is None:
+            return False
+        if p.val != q.val:
+            return False
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+```
