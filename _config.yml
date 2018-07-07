@@ -9,12 +9,12 @@
 title: Misaki
 brief-intro: Python Programmer
 baseurl: "" # the subpath of your site, e.g. /blog
-url:  # the base hostname & protocol for your site
+url:  "http://python-myway.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-github_username:  python-myway
+github_username: python-myway
 email: chengganqin@126.com
 
 description_footer: 本站记录我编程之旅的沿途风景！
