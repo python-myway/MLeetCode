@@ -1,5 +1,5 @@
 
-[![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/python-myway/python-myway.github.io/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/python-myway/python-myway.github.io.svg)](https://github.com/python-myway/python-myway.github.io/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/python-myway/python-myway.github.io.svg)](https://github.com/python-myway/python-myway.github.io/network)
 [![GitHub issues](https://img.shields.io/github/issues/python-myway/python-myway.github.io.svg)](https://github.com/python-myway/python-myway.github.io/issues)
 [![GitHub release](https://img.shields.io/github/release/python-myway/python-myway.github.io.svg)](https://github.com/python-myway/python-myway.github.io/releases)
