@@ -64,7 +64,7 @@ f'Hello, {name}!'
 
 ## encode & decode
 - Python2中字符串的默认编码是Ascii，Python3中是utf-8
-- 使用Python2时，经常会在模块的顶部添加 *# coding=uhf-8*, 避免出现编码错误
+- 使用Python2时，经常会在模块的顶部添加 *# coding=utf-8*, 避免出现编码错误
 - unicode将所有的字符都对应上了相应的码点，而UTF-8或者ASCII码不过是对应从Unicode到字节的映射方式
 - unicode到字节码(byte string)称之为encode，把从字节码(byte string)到unicode码称之为decode.
 
