@@ -69,5 +69,5 @@ class Solution:
             dfs(node.left, depth + 1)
             dfs(node.right, depth + 1)
         dfs(root)
-        return [s/float(c) for s, c in info] 
+        return [s/float(c) for s, c in info]
 ```
