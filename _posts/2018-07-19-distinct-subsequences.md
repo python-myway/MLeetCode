@@ -42,7 +42,7 @@ rabbbit
 ^^^ ^^^
 ```
 
-## Example1
+## Example2
 
 ```
 Input: S = "babgbag", T = "bag"

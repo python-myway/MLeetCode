@@ -61,6 +61,7 @@ For [2,3], the interval [3,4] has minimum-"right" start point.
 ## Solution
 
 - 没有通过时间测试:(
+
 ```
 # Definition for an interval.
 # class Interval:
@@ -94,6 +95,7 @@ class Solution:
 ```
 
 - 这个解法是大多数解法的思路，[原址](https://leetcode.com/problems/find-right-interval/discuss/148304/8-line-python-solution-with-bisect)
+
 ```
 class Solution:
     def findRightInterval(self, intervals):
