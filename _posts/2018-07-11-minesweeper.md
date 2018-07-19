@@ -33,7 +33,6 @@ Now given the next click position (row and column indices) among all the unrevea
 
 ## Example1
 
-```markdown
 Input: 
 [['E', 'E', 'E', 'E', 'E'],
  ['E', 'E', 'M', 'E', 'E'],
@@ -49,11 +48,9 @@ Output:
  
 Explanation:
 ![](/pic/leetcode-539-01.png)
-```
 
 ## Example2
 
-```markdown
 Input: 
 
 [['B', '1', 'E', '1', 'B'],
@@ -70,7 +67,6 @@ Output:
 
 Explanation:
 ![](/pic/leetcode-539-02.png)
-```
 
 ## Note
 

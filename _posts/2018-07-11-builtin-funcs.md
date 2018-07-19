@@ -3,7 +3,7 @@ layout: post
 title:  builtin-funcs-sorted
 date:   2018-07-11 00:00:00
 categories: Python
-tags: Builtin 函数式编程 Lambda
+tags: Builtin functional-programming Lambda
 ---
 
 * content
