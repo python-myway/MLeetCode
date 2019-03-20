@@ -19,6 +19,7 @@ type: page
 
 ## 有意思的资料
 - [计算科学速成课](https://www.bilibili.com/video/av21376839)，说是速成，但其实知识面很广，讲解得又易懂，对非科班的编程人员很友好，另外youtube上有他们出品的各个方面的速成课，很有意思啊
+- [自学CS需要的课程和资料指引](https://teachyourselfcs.com/)
 
 ## Comments
 
