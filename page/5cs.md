@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ComputerScience-2019
-permalink: /cs2019/
+title: CS
+permalink: /cs/
 icon: bookmark
 type: page
 ---

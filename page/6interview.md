@@ -1,7 +1,7 @@
 ---
 layout: page
-title: python-questions
-permalink: /python-questions/
+title: Interview
+permalink: /interview/
 icon: bookmark
 type: page
 ---
